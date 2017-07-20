@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Barrus Pianos</title>
+  </head>
+
+    <body>
+
+      <div class="container">
+
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">BARRUS PIANOS</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li> <a href="index.html"> Home </a></li>
+                  <li><a href="moving.html"> Moving </a></li>
+                  <li> <a href="repair.html"> Repair </a></li>
+                  <li> <a href="tuning.html"> Tuning </a> </li>
+                  <li> <a href="storage.html"> Storage </a></li>
+                  <li> <a href="sales.html"> Sales </a></li>
+                  <li> <a href="rentals.html"> Rentals </a></li>
+                  <li> <a href="playerpianos.html"> Player Pianos </a></li>
+                  <li> <a href="services.html"> Services </a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a><span class="glyphicon glyphicon-phone"></span>801-486-3652</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+          <div class="outline">
+        <div class="row">
+          <div class="col-md-8">
+            <h3> Moving </h3>
+            <img src="images/truck.png" width="100%" class="tn-br">
+            <br></br>  <p>Barrus Pianos is the West’s elite piano moving organization.  Whether you are looking for a short,
+                in-town move, or a long distance move, you can have confidence in the safety of your piano.
+                The techniques used by Barrus Pianos movers are the safest, most efficient to move any piano.
+                We offer climate controlled trucks and throughly pad every piano that we move.
+                Our specialized equipment and well trained staff will take the worry out of moving your piano.
+                The cost for moving varies based on size of the piano, distance traveled, number of stairs to be moved over, etc.
+                 Please fill out the form below or call us at (801) 486-3652.  Don’t trust your piano to just anybody,
+                 let Barrus Pianos deliver with quality. </p>
+                 <form action="https://formspree.io/nick.suwyn@codercamps.com" method="POST">
+                 <p> Name:</p> <input type="text" name="name" class="form-control"/> <br></br>
+                 <p> E-Mail Address: </p> <input type="text" name="email" class="form-control">  <br> </br>
+                 <p> Phone: </p> <input type="text" name="phone" class="form-control">  <br></br>
+                 <p> Pick Up Address: </p> <textarea name="pickUp" class="form-control"> </textarea> <br></br>
+                 <p> Delivery Address: </p> <textarea name="delivery" class="form-control"> </textarea> <br></br>
+                 <p> Desired Move Date: </p> <input type="date" name="moveDate" class="form-control"> <br></br>
+                 <p> Type of Piano: </p>
+                 <select name="typeOfPiano" class="form-control">
+                   <option value="spinet"> Spinet to Studio (37" to 48" tall) </option>
+                   <option value="professional"> Professional and older upright (taller than 50")</option>
+                   <option value="grand"> Baby grand to Grand piano (4'7" to 6')</option>
+                   <option value="semi"> Semi concert grand (6' to 7'6")</option>
+                   <option value="concert"> Concert grand (8' to 10')</option>
+                   <option value="other"> Other </option>
+                 </select> <br></br>
+                 <p> More than 5 stairs in a row at pick up location? </p>
+
+                   <input type="radio" value="yes" name="5stairsAtPickUp"> <label for="yes"> Yes </label>
+                   <input type="radio" value="no" name="5stairsAtPickUp"> <label for="no"> No </label>
+                  <br></br>
+                <p> If so, how many?</p> <input type="text" name="stairsPickUp" class="form-control">  <br></br>
+                <p> More than 5 stairs in a rown at delivery location? </p>
+
+                  <input type="radio" value="yes" name="5stairsAtDelivery"> <label for="yes"> Yes </label>
+                  <input type="radio" value="no" name="5stairsAtDelivery"> <label for="no"> No </label>
+                 <br></br>
+                <p> If so, how many? </p> <input type="text" name="stairsDelivery" class="form-control"><br></br>
+                <p> Are there any light turns or corners at either location? </p>
+
+                  <input type="radio" value="yes" name="corners"> <label for="yes"> Yes </label>
+                  <input type="radio" value="no" name="corners"> <label for="no"> No </label>
+                 <br></br>
+                <p> Will the piano need to be moved over any rough terrain? </p>
+
+                  <input type="radio" value="yes" name="roughTerrain"> <label for="yes"> Yes </label>
+                  <input type="radio" value="no" name="roughTerrain"> <label for="no"> No </label>
+                <br></br>
+                <p> If so, please describe: </p> <textarea name="terrain" class="form-control"></textarea> <br></br>
+                <p> Additonal Comments: </p> <textarea name="comments" class="form-control"></textarea> <br></br>
+                  <input type="submit" value="Submit" class="btn btn-black">
+                </form>
+          </div>
+
+
+          <div class="col-md-4">
+            <h4> Contact Us </h4>
+              <p> Phone: 801-486-3652 </p> <p> Fax: 801-486-0561 </p>
+              <p> <a href="emailhere.html"> Email: Click here </a> </p>
+            <p>Office: 2191 South 300 West suite 6 </p> <br></br>
+            <h4> Follow Us </h4>
+            <a href="http://barruspianos.com/feed/">
+              <img src="images/rss.png" alt="rss"></a>
+            <a href="https://twitter.com/BarrusPianos">
+              <img src="images/twitter.png" alt="twitter"></a>
+            <a href="https://www.facebook.com/Barrus-Pianos-85928718656/">
+              <img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.customerlobby.com/reviews/26575/barrus-pianos/appointment/">
+              <img alt="Request appointment with Barrus Pianos" src="https://www.customerlobby.com/images/logos/schedule_appointment_a.png" border="0" width="148"></a> <br></br>
+            <a href="https://www.customerlobby.com/reviews/26575/barrus-pianos">
+              <img alt="Review of Barrus Pianos" src="https://www.customerlobby.com/img/26575/compact" border="0"></a> <br></br>
+            <a href="https://www.customerlobby.com/reviews/26575/barrus-pianos/write">
+              <img alt="Write a Review of Barrus Pianos" src="images/write-review.png" border="0"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

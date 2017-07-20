@@ -1,0 +1,50 @@
+.outline {
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  border-width: .5px;
+  padding: 2em;
+  background-color: white;
+}
+
+.sidePic {
+  width: 100%;
+  min-height: 4em;
+  border: solid;
+  border-style: double;
+}
+
+@media (max-width: 768px){
+  .sidePic {
+    height: 10em;
+    width: 75%;
+    max-width: 200px;
+    border: solid;
+    border-style: double;
+  }
+
+  .center {
+    text-align: center;
+  }
+}
+
+body {
+  background-image: url('images/bg-home-showcase.jpg');
+  background-repeat: repeat;
+  background-color: rgba(240,240,240,0.65);
+  background-blend-mode: screen;
+}
+
+.btn-black {
+  background-color: #ac7339;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 2px 2px #d9d9d9;
+
+}
+
+.btn-black:hover {
+  background-color: #86592d;
+  color: white;
+  box-shadow: 5px 5px #d9d9d9;
+}
